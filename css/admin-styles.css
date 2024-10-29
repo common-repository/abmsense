@@ -1,0 +1,26 @@
+/* File: css/abmsense-admin-style.css */
+
+.widefat.fixed {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.widefat.fixed th,
+.widefat.fixed td {
+  padding: 8px 10px;
+  white-space: nowrap;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.widefat.fixed th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+.widefat.fixed td {
+  border-bottom: 1px solid #e5e5e5;
+}
+.widefat.fixed tr:hover {
+  background-color: #f9f9f9;
+}
